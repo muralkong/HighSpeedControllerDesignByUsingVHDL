@@ -1,0 +1,5 @@
+98
+~E 1 "./src/counter1HzFor250MHz.vhd" 30 counter1hzfor250mhz
+~A 1 "./src/counter1hzfor250mhz.vhd" 39 kingdom
+~E 1 "./compile/DCMBlockTest.vhd" 32 dcmblocktest
+~A 1 "./compile/DCMBlockTest.vhd" 43 dcmblocktest

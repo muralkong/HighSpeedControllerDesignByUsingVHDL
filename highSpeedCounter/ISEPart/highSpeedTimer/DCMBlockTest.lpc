@@ -1,0 +1,16 @@
+# DCMBlockTest.lpc  
+#   The constraints in this file were created simply to be viewed.  
+#   If you wish to use these constraints, please copy them into your  
+#   project's constraint file. If you do not have a project constraints  
+#   file yet, please use the "Project->New Source" menu to create one.
+
+
+
+#pin2ucf - Fri Aug 30 09:01:53 2024
+#The following constraints were newly added
+NET "clkOn" LOC = P10;
+NET "clk25Mhz" LOC = R11;
+NET "nReset" LOC = T10;
+NET "inputClk" LOC = J4;
+NET "clk250MHz" LOC = T11;
+NET "originOut1" LOC = M12;

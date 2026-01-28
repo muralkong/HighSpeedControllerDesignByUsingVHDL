@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<DeviceUsageSummary rev="31">
+<DesignStatistics TimeStamp="Mon Sep 09 15:17:46 2024"><group name="NetStatistics">
+<item name="NumNets_Active" rev="31">
+<attrib name="value" value="15"/></item>
+<item name="NumNets_Gnd" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Active_BOUNCEACROSS" rev="31">
+<attrib name="value" value="3"/></item>
+<item name="NumNodesOfType_Active_BOUNCEIN" rev="31">
+<attrib name="value" value="3"/></item>
+<item name="NumNodesOfType_Active_BUFGOUT" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Active_BUFHINP2OUT" rev="31">
+<attrib name="value" value="4"/></item>
+<item name="NumNodesOfType_Active_BUFIOINP" rev="31">
+<attrib name="value" value="2"/></item>
+<item name="NumNodesOfType_Active_CLKPINFEED" rev="31">
+<attrib name="value" value="10"/></item>
+<item name="NumNodesOfType_Active_CNTRLPIN" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Active_DOUBLE" rev="31">
+<attrib name="value" value="3"/></item>
+<item name="NumNodesOfType_Active_GENERIC" rev="31">
+<attrib name="value" value="15"/></item>
+<item name="NumNodesOfType_Active_GLOBAL" rev="31">
+<attrib name="value" value="14"/></item>
+<item name="NumNodesOfType_Active_INPUT" rev="31">
+<attrib name="value" value="3"/></item>
+<item name="NumNodesOfType_Active_IOBIN2OUT" rev="31">
+<attrib name="value" value="7"/></item>
+<item name="NumNodesOfType_Active_IOBOUTPUT" rev="31">
+<attrib name="value" value="7"/></item>
+<item name="NumNodesOfType_Active_OUTBOUND" rev="31">
+<attrib name="value" value="4"/></item>
+<item name="NumNodesOfType_Active_OUTPUT" rev="31">
+<attrib name="value" value="10"/></item>
+<item name="NumNodesOfType_Active_PADINPUT" rev="31">
+<attrib name="value" value="4"/></item>
+<item name="NumNodesOfType_Active_PADOUTPUT" rev="31">
+<attrib name="value" value="2"/></item>
+<item name="NumNodesOfType_Active_PINBOUNCE" rev="31">
+<attrib name="value" value="4"/></item>
+<item name="NumNodesOfType_Active_PINFEED" rev="31">
+<attrib name="value" value="8"/></item>
+<item name="NumNodesOfType_Active_PINFEED2" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Active_QUAD" rev="31">
+<attrib name="value" value="11"/></item>
+<item name="NumNodesOfType_Active_SINGLE" rev="31">
+<attrib name="value" value="2"/></item>
+<item name="NumNodesOfType_Gnd_CLKPIN" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Gnd_CNTRLPIN" rev="31">
+<attrib name="value" value="2"/></item>
+<item name="NumNodesOfType_Gnd_HGNDOUT" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Gnd_OUTBOUND" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Gnd_OUTPUT" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Gnd_PINFEED" rev="31">
+<attrib name="value" value="3"/></item>
+<item name="NumNodesOfType_Gnd_SINGLE" rev="31">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="SiteStatistics">
+<item name="BUFG-BUFGMUX" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="IOB-IOBM" rev="31">
+<attrib name="value" value="4"/></item>
+<item name="IOB-IOBS" rev="31">
+<attrib name="value" value="2"/></item>
+</group>
+<group name="MiscellaneousStatistics">
+<item name="AGG_BONDED_IO" rev="30">
+<attrib name="value" value="6"/></item>
+<item name="AGG_IO" rev="30">
+<attrib name="value" value="6"/></item>
+<item name="AGG_LOCED_IO" rev="30">
+<attrib name="value" value="6"/></item>
+<item name="NUM_BONDED_IOB" rev="30">
+<attrib name="value" value="6"/></item>
+<item name="NUM_BUFG" rev="30">
+<attrib name="value" value="1"/></item>
+<item name="NUM_BUFIO2" rev="30">
+<attrib name="value" value="1"/></item>
+<item name="NUM_BUFIO2FB" rev="30">
+<attrib name="value" value="1"/></item>
+<item name="NUM_DCM" rev="30">
+<attrib name="value" value="1"/></item>
+<item name="NUM_LOCED_IOB" rev="30">
+<attrib name="value" value="6"/></item>
+</group>
+</DesignStatistics>
+<DeviceUsage TimeStamp="Mon Sep 09 15:17:46 2024"><group name="SiteSummary">
+<item name="BUFG" rev="31">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+<item name="BUFG_BUFG" rev="31">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+<item name="BUFIO2" rev="31">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+<item name="BUFIO2FB" rev="31">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+<item name="BUFIO2FB_BUFIO2FB" rev="31">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+<item name="BUFIO2_BUFIO2" rev="31">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+<item name="DCM" rev="31">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+<item name="DCM_DCM" rev="31">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+<item name="IOB" rev="31">
+<attrib name="total" value="1000000"/><attrib name="used" value="6"/></item>
+<item name="IOB_IMUX" rev="31">
+<attrib name="total" value="1000000"/><attrib name="used" value="2"/></item>
+<item name="IOB_INBUF" rev="31">
+<attrib name="total" value="1000000"/><attrib name="used" value="2"/></item>
+<item name="IOB_OUTBUF" rev="31">
+<attrib name="total" value="1000000"/><attrib name="used" value="4"/></item>
+<item name="PAD" rev="31">
+<attrib name="total" value="1000000"/><attrib name="used" value="6"/></item>
+</group>
+</DeviceUsage>
+<ReportConfigData TimeStamp="Mon Sep 09 15:17:46 2024"><group name="IOB_OUTBUF">
+<item name="DRIVEATTRBOX" rev="31">
+<attrib name="12" value="4"/></item>
+<item name="SLEW" rev="31">
+<attrib name="SLOW" value="4"/></item>
+<item name="SUSPEND" rev="31">
+<attrib name="3STATE" value="4"/></item>
+</group>
+<group name="BUFIO2FB_BUFIO2FB">
+<item name="DIVIDE_BYPASS" rev="31">
+<attrib name="TRUE" value="1"/></item>
+<item name="INVERT_INPUTS" rev="31">
+<attrib name="FALSE" value="1"/></item>
+</group>
+<group name="BUFIO2_BUFIO2">
+<item name="DIVIDE" rev="31">
+<attrib name="1" value="1"/></item>
+<item name="DIVIDE_BYPASS" rev="31">
+<attrib name="TRUE" value="1"/></item>
+<item name="I_INVERT" rev="31">
+<attrib name="FALSE" value="1"/></item>
+</group>
+<group name="DCM_DCM">
+<item name="CLKDV_DIVIDE" rev="31">
+<attrib name="2.0" value="1"/></item>
+<item name="CLKIN_DIVIDE_BY_2" rev="31">
+<attrib name="FALSE" value="1"/></item>
+<item name="CLKOUT_PHASE_SHIFT" rev="31">
+<attrib name="NONE" value="1"/></item>
+<item name="CLK_FEEDBACK" rev="31">
+<attrib name="1X" value="1"/></item>
+<item name="DESKEW_ADJUST" rev="31">
+<attrib name="5" value="1"/></item>
+<item name="DFS_FREQUENCY_MODE" rev="31">
+<attrib name="LOW" value="1"/></item>
+<item name="DLL_FREQUENCY_MODE" rev="31">
+<attrib name="LOW" value="1"/></item>
+<item name="DSS_MODE" rev="31">
+<attrib name="NONE" value="1"/></item>
+<item name="DUTY_CYCLE_CORRECTION" rev="31">
+<attrib name="TRUE" value="1"/></item>
+<item name="PSCLK" rev="31">
+<attrib name="PSCLK_INV" value="0"/><attrib name="PSCLK" value="1"/></item>
+<item name="PSEN" rev="31">
+<attrib name="PSEN_INV" value="0"/><attrib name="PSEN" value="1"/></item>
+<item name="PSINCDEC" rev="31">
+<attrib name="PSINCDEC" value="1"/><attrib name="PSINCDEC_INV" value="0"/></item>
+<item name="RST" rev="31">
+<attrib name="RST" value="0"/><attrib name="RST_INV" value="1"/></item>
+<item name="STARTUP_WAIT" rev="31">
+<attrib name="FALSE" value="1"/></item>
+<item name="VERY_HIGH_FREQUENCY" rev="31">
+<attrib name="FALSE" value="1"/></item>
+</group>
+<group name="DCM">
+<item name="PSCLK" rev="31">
+<attrib name="PSCLK_INV" value="0"/><attrib name="PSCLK" value="1"/></item>
+<item name="PSEN" rev="31">
+<attrib name="PSEN_INV" value="0"/><attrib name="PSEN" value="1"/></item>
+<item name="PSINCDEC" rev="31">
+<attrib name="PSINCDEC" value="1"/><attrib name="PSINCDEC_INV" value="0"/></item>
+<item name="RST" rev="31">
+<attrib name="RST" value="0"/><attrib name="RST_INV" value="1"/></item>
+</group>
+</ReportConfigData>
+<ReportPinData TimeStamp="Mon Sep 09 15:17:46 2024"><group name="BUFIO2">
+<item name="DIVCLK" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="I" rev="31">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="IOB_OUTBUF">
+<item name="IN" rev="31">
+<attrib name="value" value="4"/></item>
+<item name="OUT" rev="31">
+<attrib name="value" value="4"/></item>
+</group>
+<group name="BUFG_BUFG">
+<item name="I0" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="O" rev="31">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="PAD">
+<item name="PAD" rev="31">
+<attrib name="value" value="6"/></item>
+</group>
+<group name="BUFIO2FB">
+<item name="I" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="O" rev="31">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="BUFIO2FB_BUFIO2FB">
+<item name="I" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="O" rev="31">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="IOB_INBUF">
+<item name="OUT" rev="31">
+<attrib name="value" value="2"/></item>
+<item name="PAD" rev="31">
+<attrib name="value" value="2"/></item>
+</group>
+<group name="BUFIO2_BUFIO2">
+<item name="DIVCLK" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="I" rev="31">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="IOB_IMUX">
+<item name="I" rev="31">
+<attrib name="value" value="2"/></item>
+<item name="OUT" rev="31">
+<attrib name="value" value="2"/></item>
+</group>
+<group name="IOB">
+<item name="I" rev="31">
+<attrib name="value" value="2"/></item>
+<item name="O" rev="31">
+<attrib name="value" value="4"/></item>
+<item name="PAD" rev="31">
+<attrib name="value" value="6"/></item>
+</group>
+<group name="DCM_DCM">
+<item name="CLK0" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="CLKDV" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="CLKFB" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="CLKFX" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="CLKIN" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="LOCKED" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="PSCLK" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="PSEN" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="PSINCDEC" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="RST" rev="31">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="BUFG">
+<item name="I0" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="O" rev="31">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="DCM">
+<item name="CLK0" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="CLKDV" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="CLKFB" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="CLKFX" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="CLKIN" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="LOCKED" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="PSCLK" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="PSEN" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="PSINCDEC" rev="31">
+<attrib name="value" value="1"/></item>
+<item name="RST" rev="31">
+<attrib name="value" value="1"/></item>
+</group>
+</ReportPinData>
+<CmdHistory>
+</CmdHistory>
+</DeviceUsageSummary>

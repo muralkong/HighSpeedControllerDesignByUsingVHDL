@@ -1,0 +1,16 @@
+NET "inputClk" LOC = T8;
+NET "nReset" LOC = C3;  #KEY1
+
+NET "clkOn" LOC = P4;  #LED0
+NET "clk25Mhz" LOC = P2; #J2 31
+NET "clk250MHz" LOC = P6; #J2 33 
+NET "originOut1" LOC = R1; #J2 29
+
+#NET "clk25Mhz" LOC = K16; #J2 3
+#NET "clk250MHz" LOC = J16; #J2 4
+#NET "originOut1" LOC = L16; #J2 5
+#
+PIN "originOut_BUFG.O" CLOCK_DEDICATED_ROUTE = FALSE;
+
+#NET "clk" CLOCK_DEDICATED_ROUTE = FALSE;
+#PIN "U3.CLKIN" CLOCK_DEDICATED_ROUTE = FALSE;

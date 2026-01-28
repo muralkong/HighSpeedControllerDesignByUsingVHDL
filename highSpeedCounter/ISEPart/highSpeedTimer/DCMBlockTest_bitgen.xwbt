@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\MyDesigns\05FPGAPart\CenoTech\20240800FPGA4nsStrobe\project4nsStrobe\highSpeedCounter\ISEPart\highSpeedTimer\DCMBlockTest.ncd
+OUTFILE=D:\MyDesigns\05FPGAPart\CenoTech\20240800FPGA4nsStrobe\project4nsStrobe\highSpeedCounter\ISEPart\highSpeedTimer\DCMBlockTest.bit
+FAMILY=Spartan6
+PART=xc6slx9-2ftg256
+WORKINGDIR=D:\MyDesigns\05FPGAPart\CenoTech\20240800FPGA4nsStrobe\project4nsStrobe\highSpeedCounter\ISEPart\highSpeedTimer
+LICENSE=WebPack
+USER_INFO=__0_0_0

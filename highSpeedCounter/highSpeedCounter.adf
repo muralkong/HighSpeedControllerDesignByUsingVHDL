@@ -1,0 +1,99 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=highSpeedCounter
+
+[Library]
+highSpeedCounter=\\tsclient\d\mydesigns\05fpgapart\cenotech\20240800fpga4nsstrobe\project4nsstrobe\highSpeedCounter\highSpeedCounter.LIB
+
+[$LibMap$]
+highSpeedCounter=.
+Active_lib=SPARTAN3A
+xilinxun=SPARTAN3A
+UnlinkedDesignLibrary=SPARTAN3A
+DESIGNS=SPARTAN3A
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+RUN_MODE_SYNTH=1
+IMPL_TOOL=MV_ISE101
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOWTOOLS=IMPL_WITH_SYNTH
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+FAMILY=Xilinx10x SPARTAN3A
+SYNTH_TOOL=MV_SYNPLIFY_PRO92
+Celoxica=0
+UseCeloxica=0
+PCBINTERFACE_STATUS=NONE
+C_SERVER_SIM=
+C_SERVER_SYNTH=
+C_SERVER_IMPL=
+
+[IMPLEMENTATION_XILINX10]
+impl_opt(dont_run_translate)=0
+impl_opt(dont_run_map)=0
+impl_opt(dont_run_place)=0
+impl_opt(dont_run_trace)=0
+impl_opt(dont_run_simulation)=0
+impl_opt(dont_run_fit)=0
+impl_opt(Macro_Search_Path)=D:/MyDesigns/05FPGAPart/CenoTech/20240800FPGA4nsStrobe/project4nsStrobe/xilinxcoregen
+impl_opt(dont_run_bitgen)=1
+
+[IMPLEMENTATION]
+UCF=
+FLOW_STEPS_RESET=0
+FAMILY=Xilinx10x SPARTAN3A
+DEVICE=
+SPEED=
+
+[SYNTHESIS]
+FAMILY=Xilinx10x SPARTAN3A
+DEVICE=
+SPEED=
+
+[PHYS_SYNTHESIS]
+FAMILY=Xilinx10x SPARTAN3A
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=dcmblocktest|dcmblocktest|0
+ShowHide=ShowTopLevel
+Selected=
+
+[Folders]
+Name3=Makefiles
+Directory3=d:\MyDesigns\05FPGAPart\CenoTech\20240800FPGA4nsStrobe\project4nsStrobe\highSpeedCounter\
+Extension3=mak
+Name4=Memory
+Directory4=d:\MyDesigns\05FPGAPart\CenoTech\20240800FPGA4nsStrobe\project4nsStrobe\highSpeedCounter\src
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=d:\MyDesigns\05FPGAPart\CenoTech\20240800FPGA4nsStrobe\project4nsStrobe\highSpeedCounter\
+Extension5=dll
+Name6=PDF
+Directory6=d:\MyDesigns\05FPGAPart\CenoTech\20240800FPGA4nsStrobe\project4nsStrobe\highSpeedCounter\
+Extension6=pdf
+Name7=HTML
+Directory7=d:\MyDesigns\05FPGAPart\CenoTech\20240800FPGA4nsStrobe\project4nsStrobe\highSpeedCounter\
+Extension7=
+
+[Files]
+/DCMBlockTest.bde=-1
+/DCMBlockTest.awf=-1
+/counter1HzFor250MHz.vhd=-1
+
+[Files.Data]
+\\tsclient\d\mydesigns\05fpgapart\cenotech\20240800fpga4nsstrobe\project4nsstrobe\R02innerSignalRemoveFromR01\src\DCMBlockTest.bde=Block Diagram
+\\tsclient\d\mydesigns\05fpgapart\cenotech\20240800fpga4nsstrobe\project4nsstrobe\R02innerSignalRemoveFromR01\src\DCMBlockTest.awf=Waveform File
+\\tsclient\d\mydesigns\05fpgapart\cenotech\20240800fpga4nsstrobe\project4nsstrobe\R02innerSignalRemoveFromR01\src\counter1HzFor250MHz.vhd=VHDL Source Code
+

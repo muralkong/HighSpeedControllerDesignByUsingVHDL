@@ -1,0 +1,15 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Sep 09 15:17:29 2024
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clkOn" LOCATE = SITE "P4" LEVEL 1;
+COMP "clk25Mhz" LOCATE = SITE "P2" LEVEL 1;
+COMP "clk250MHz" LOCATE = SITE "P6" LEVEL 1;
+COMP "originOut1" LOCATE = SITE "R1" LEVEL 1;
+COMP "nReset" LOCATE = SITE "C3" LEVEL 1;
+COMP "inputClk" LOCATE = SITE "T8" LEVEL 1;
+PIN originOut_BUFG_pin<1> = BEL "originOut_BUFG" PINNAME O;
+PIN "originOut_BUFG_pin<1>" CLOCK_DEDICATED_ROUTE = FALSE;
+SCHEMATIC END;
+

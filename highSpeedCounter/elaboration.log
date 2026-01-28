@@ -1,0 +1,26 @@
+elbread.dll ver. 1.0.5.375 Wed May 07 00:17:18 2025
+
+
+-------------------------------------------------------------------------------
+Entity                       | Architecture                  | Library       
+-------------------------------------------------------------------------------
+dcmblocktest                 | dcmblocktest                  | highSpeedCounter
+dcm_sp                       | dcm_sp_v                      | spartan3a
+inv                          | inv_v                         | spartan3a
+dcm_sp_clock_divide_by_2     | dcm_sp_clock_divide_by_2_v    | spartan3a
+dcm_sp_maximum_period_check  | dcm_sp_maximum_period_check_v | spartan3a
+dcm_sp_clock_lost            | dcm_sp_clock_lost_v           | spartan3a
+-------------------------------------------------------------------------------
+
+-------------------------------
+Package             | Library
+-------------------------------
+standard            | std
+std_logic_1164      | ieee
+textio              | std
+vital_timing        | ieee
+std_logic_arith     | ieee
+vital_primitives    | ieee
+std_logic_unsigned  | ieee
+vpkg                | spartan3a
+-------------------------------
